@@ -1,0 +1,1 @@
+print("A simple program to input and output your name")
