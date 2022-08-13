@@ -1,6 +1,6 @@
 from asyncore import file_dispatcher
 import os
-def create-file:
+def createfile:
     f = open(name.txt, 'x')
 print("A simple program to input and output your name")
 fname = input("Input First Name: ")
