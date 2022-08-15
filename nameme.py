@@ -7,10 +7,11 @@ f = "name.txt"
 print("A simple program to input and output your name")
 fname = input("Input First Name: ")
 lname = input("Input Last Name: ")
-print(fname,lname)
+flname = fname + " " + lname
+print(flname)
 choice = input("Save as name in file? [Y/n]")
 if choice == "Y":
-# f = open(f, "w")
- f.write(fname)
+ f = open(f, "w")
+ f.write("name:", flname)
 else:
     print("no")
