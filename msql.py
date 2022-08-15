@@ -1,4 +1,3 @@
-import os
 import mysql.connector
 f = "name.txt"
 #f = open(f, "x")
