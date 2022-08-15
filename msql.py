@@ -6,8 +6,8 @@ print(fname,lname)
 choice = input("Save as name in Database? [Y/n]")
 if choice == "Y":
     name = mysql.connector.connect(
-        firstN=fname,
-        lastN=lname
+        firstn=fname,
+        lastn=lname
     )
 else:
     print("Not saving to Database")
