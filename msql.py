@@ -1,3 +1,5 @@
+#support for this program is dropped as it is not easy to setup MySQL for personal use
+print("support for this program is dropped as it is not easy to setup MySQL for personal use")
 import mysql.connector
 print("A simple program to input and output your name")
 fname = input("Input First Name: ")
