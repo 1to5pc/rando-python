@@ -1,5 +1,5 @@
 import os
-import crt
+import mysql.connector
 f = "name.txt"
 #f = open(f, "x")
 #def create(file):
