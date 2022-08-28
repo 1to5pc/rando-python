@@ -27,3 +27,13 @@ while Lp <= 1:
       print("[OK] Quit 'Terminalx'")
       time.sleep(0.069)
       break
+ elif cmd == "help":
+    print("Welcome to Terminalx")
+    print("This a 'terminal emulator' in python")
+    print("To get a list of the availble commands run 'list'")
+ elif cmd == "list":
+    print("py - Enter a :python env")
+    print("help - Show the help text for terminalx")
+    print("exit - Exit terminalx")
+ else:
+    print("Unknown command! Run 'help' for help and 'list' for a list of commands")
