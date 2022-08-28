@@ -1,3 +1,4 @@
+#This version of terminalx is not supported! Download the latest version at https://github.com/1to5pc/py-terminal
 import time
 import os
 import animation
@@ -6,6 +7,7 @@ import boot
 Lp = 0
 
 boot.boot()
+print("This version isnt supported! Get the latest version at https://github.com/1to5pc/py-terminal")
 print("Welcome to Terminalx")
 print("This is a 'terminal emulator' in python")
 while Lp <= 1:
