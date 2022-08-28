@@ -20,5 +20,5 @@ elif cmd == "exit":
      time.sleep(0.01)
     print()
     print("[OK] Quit 'Terminalx'")
-    time.sleep(2)
+    time.sleep(0.69)
     
