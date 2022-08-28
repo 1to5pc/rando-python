@@ -17,8 +17,8 @@ elif cmd == "exit":
     time.sleep(0.2)
     for i in range(101):
      animation.progress(i)
-     time.sleep(0.01)
+     time.sleep(0.005)
     print()
     print("[OK] Quit 'Terminalx'")
-    time.sleep(0.69)
+    time.sleep(0.069)
     
