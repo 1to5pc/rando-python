@@ -1,6 +1,7 @@
 import time
 import os
 import animation
+import boot
 
 print("Welcome to Terminalx")
 print("This is a 'terminal emulator' in python")
