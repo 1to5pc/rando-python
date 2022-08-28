@@ -5,6 +5,7 @@ import boot
 
 print("Welcome to Terminalx")
 print("This is a 'terminal emulator' in python")
+boot.boot()
 cmd = input("Enter your command: ")
 if cmd == "py":
     print("Entering python.")
